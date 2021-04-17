@@ -9,12 +9,17 @@ package ListNode
  */
 
 func HasCycle(head *ListNode) bool {
-	seen := map[*ListNode]struct{}{}
-	for head != nil {
-		if _, ok := seen[head]; ok {
-			return true
-		}
-		seen[head] = struct{}{}
-		head = head.Next
+	if (head == nil) || (head.Next == nil) {
+		return false
 	}
+	slow := head
+	fast := head.Next
+	for slow != fast {
+		if (fast == nil) || (fast.Next == nil) {
+			return false
+		}
+		slow = slow.Next
+		fast = fast.Next.Next
+	}
+	return true
 }
