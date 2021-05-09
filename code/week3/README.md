@@ -4,7 +4,7 @@
 2. [242 有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/)
 3. [15. 三数之和](https://leetcode-cn.com/problems/3sum/)
 4. [98. 验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/)
-5. []
+5. [235. 二叉搜索树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
 
 
 
