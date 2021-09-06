@@ -57,7 +57,7 @@ package week02;//给定一个只包括 '('，')'，'{'，'}'，'['，']' 的字�
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
-    public boolean isValid(String s) {
+    /*public boolean isValid(String s) {
         int n=s.length();
         if(n%2==1){
             return false;
@@ -82,6 +82,6 @@ class Solution {
             }
         }
         return stack.isEmpty();
-    }
+    }*/
 }
 //leetcode submit region end(Prohibit modification and deletion)

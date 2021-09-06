@@ -26,13 +26,6 @@ class Solution:
 
 
 
-
-
-
-        return max_len
-
-
-
 if __name__ == '__main__':
     s = Solution()
     s.lengthOfLongestSubstring("123")
