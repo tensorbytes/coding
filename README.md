@@ -1,5 +1,11 @@
 ## 刷过的题目整理
 
+### 栈、队列
+
+[225. 用队列实现栈](https://leetcode-cn.com/problems/implement-stack-using-queues/)  
+[239. 滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/)  
+
+
 ### 链表
 
 [206.反转链表](https://leetcode-cn.com/problems/reverse-linked-list/) 
@@ -14,7 +20,7 @@
 prev = cur 
 cur = tmp
 ```
-[24. 两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/submissions/)
+[24. 两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/submissions/)  
 [25. K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/submissions/)
 ```
 这题是困难级别的。所用的知识点就是简单的链表反转.但是对编码的思路是否清晰要求较高。
@@ -40,3 +46,7 @@ s = a + c + xb  无论x是多少, 最终要  a+c+xb = nb。 因此 a+c必定是�
 所以相遇点 就是入口点 a
 
 ```
+
+### 字符串
+
+[3. 无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) 

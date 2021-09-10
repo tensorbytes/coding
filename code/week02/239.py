@@ -78,7 +78,7 @@ class Solution:
             if i >= k-1:
                 res.append(nums[windows[0]])
 
-        return nums
+        return res
 
 
 
