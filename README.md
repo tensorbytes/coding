@@ -6,6 +6,18 @@
 [239. 滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/)  
 
 
+### 堆
+
+[703. 数据流中的第 K 大元素](https://leetcode-cn.com/problems/kth-largest-element-in-a-stream/)
+
+
+### 哈希表
+[20. 有效的括号](https://leetcode-cn.com/problems/valid-parentheses/)
+[1 两数之和](https://leetcode-cn.com/problems/two-sum/)
+[15. 三数之和](https://leetcode-cn.com/problems/3sum/)
+
+
+
 ### 链表
 
 [206.反转链表](https://leetcode-cn.com/problems/reverse-linked-list/) 
@@ -49,4 +61,20 @@ s = a + c + xb  无论x是多少, 最终要  a+c+xb = nb。 因此 a+c必定是�
 
 ### 字符串
 
-[3. 无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) 
+[3. 无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)
+[1544. 整理字符串](https://leetcode-cn.com/problems/make-the-string-great/)
+
+
+
+
+
+
+
+
+2. [242 有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/)
+3. [15. 三数之和](https://leetcode-cn.com/problems/3sum/)
+4. [98. 验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/)
+5. [235. 二叉搜索树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
+
+
+
