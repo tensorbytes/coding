@@ -1,3 +1,5 @@
+package stack
+
 type Stock struct {
 	day   int
 	price int
