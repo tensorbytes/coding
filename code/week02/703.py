@@ -122,8 +122,6 @@ class KthLargest:
 if __name__ == '__main__':
 
     #   import heapq   python 自带的堆实现
-
-
     obj = KthLargest(k=3, nums=[4, 5, 8, 2])
 
     for i in [3, 5, 10, 9, 4]:

@@ -1,4 +1,9 @@
 package week2;//给定一个只包括 '('，')'，'{'，'}'，'['，']' 的字符串 s ，判断字符串是否有效。
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Stack;
+
 //
 // 有效字符串需满足： 
 //
@@ -53,16 +58,21 @@ package week2;//给定一个只包括 '('，')'，'{'，'}'，'['，']' 的字�
 // 
 // Related Topics 栈 字符串 
 // 👍 2341 👎 0
+public class ValidParentheses_20 {
 
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        System.out.println(s.isValid("{}{}[]"));
+    }
 
-//leetcode submit region begin(Prohibit modification and deletion)
+}
 class Solution {
     public boolean isValid(String s) {
         int n=s.length();
         if(n%2==1){
             return false;
         }
-        Map<Character,Character> map=new HashMap<>(){
+        Map<Character,Character> map=new HashMap(){
             {
                 put(')','(');
                 put('}','{');
@@ -84,4 +94,3 @@ class Solution {
         return stack.isEmpty();
     }
 }
-//leetcode submit region end(Prohibit modification and deletion)

@@ -1,7 +1,7 @@
 #### 本周题目
 
 1. [50. Pow(x, n)](https://leetcode-cn.com/problems/powx-n/)
-2. [169. 多数元素](https://leetcode-cn.com/problems/valid-anagram/)
+2. [169. 多数元素](https://leetcode-cn.com/problems/majority-element/)
 
 
 
