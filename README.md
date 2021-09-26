@@ -10,12 +10,14 @@
 ### 树
 [98. 验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/)
 [235. 二叉搜索树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
+[94. 二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)
+[102. 二叉树的层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)
+[104. 二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)
 ```
 搜索二叉树左子树的所有节点都要小于根节点，同理右子树必须大于根节点
+
+层序遍历可以用bfs，dfs实现。
 ```
-
-
-
 
 
 ### 堆
@@ -78,13 +80,20 @@ s = a + c + xb  无论x是多少, 最终要  a+c+xb = nb。 因此 a+c必定是�
 [242 有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/)
 
 
-
-
-
 ### 其他
-[50. Pow(x, n)](https://leetcode-cn.com/problems/powx-n/)
-[169. 多数元素](https://leetcode-cn.com/problems/majority-element/)
+[50. Pow(x, n)](https://leetcode-cn.com/problems/powx-n/)    二分法
+[169. 多数元素](https://leetcode-cn.com/problems/majority-element/)   摩尔计数法
+[122. 买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)  动态规划
+```
+动态规划,
+1、先看题目是不是求最佳\最多\最少.
+2、是否能够用递归实现,每次的递归是否从N中选择一个选项执行
+3、上来就假设状态 为 int[][] dp = new int[待迭代的数组程度，代表一次选择][选项的个数] 
+4、找出递推公式
+```
 
 
-1. [122. 买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)
-2. [94. 二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)
+
+
+
+
