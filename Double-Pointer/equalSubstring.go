@@ -9,7 +9,7 @@ func equalSubstring(s string, t string, maxCost int) int {
 			tempCost -= abs(int(s[left]) - int(t[left]))
 			left++
 		}
-		res = max(res, right-left+1)
+		res = Max(res, right-left+1)
 	}
 	return res
 }
@@ -21,7 +21,7 @@ func abs(a int) int {
 	return a
 }
 
-func max(a, b int) int {
+func Max(a, b int) int {
 	if a > b {
 		return a
 	}
