@@ -83,7 +83,12 @@ s = a + c + xb  无论x是多少, 最终要  a+c+xb = nb。 因此 a+c必定是�
 ### 其他
 [50. Pow(x, n)](https://leetcode-cn.com/problems/powx-n/)    二分法
 [169. 多数元素](https://leetcode-cn.com/problems/majority-element/)   摩尔计数法
-[122. 买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)  动态规划
+
+
+
+### 动态规划
+[122. 买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)  
+
 ```
 动态规划,
 1、先看题目是不是求最佳\最多\最少.
@@ -93,7 +98,18 @@ s = a + c + xb  无论x是多少, 最终要  a+c+xb = nb。 因此 a+c必定是�
 ```
 
 
+### 回溯 / 递归
+[22. 括号生成](https://leetcode-cn.com/problems/generate-parentheses/)
+
+### 位运算
+[36. 有效的数独](https://leetcode-cn.com/problems/valid-sudoku/)
+```
+用bitmap来存储位置信息结合与或操作来判断数据是否重复出现
+```
 
 
+
+ 
+3. [51. N 皇后](https://leetcode-cn.com/problems/n-queens/)
 
 
