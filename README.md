@@ -6,18 +6,19 @@
 [239. 滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/)  
 
 
-
 ### 树
 [98. 验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/)
 [235. 二叉搜索树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
 [94. 二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)
 [102. 二叉树的层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)
 [104. 二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)
+
 ```
 搜索二叉树左子树的所有节点都要小于根节点，同理右子树必须大于根节点
 
 层序遍历可以用bfs，dfs实现。
 ```
+[208. 实现 Trie (前缀树)](https://leetcode-cn.com/problems/implement-trie-prefix-tree/)
 
 
 ### 堆
@@ -80,14 +81,39 @@ s = a + c + xb  无论x是多少, 最终要  a+c+xb = nb。 因此 a+c必定是�
 [242 有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/)
 
 
-### 其他
+### 二分查找
 [50. Pow(x, n)](https://leetcode-cn.com/problems/powx-n/)    二分法
+[69. x 的平方根](https://leetcode-cn.com/problems/sqrtx/)   
+
+```
+二分查找模板
+left , right
+while (left <= right){
+    mid = (left + right )/2
+    if (xxxx ){
+        return mid;
+    }else if(xxxx){
+        left = mid + 1;
+    }else {
+        right = mid -1 ;   
+    }
+}
+二分查找注意的地方是  
+1、left = 0 还是 1 , right = len 还是 len + 1 决定了 下面的while()中的条件是小于等于还是小于
+其实就是要想清楚  left，right是闭区间还是开区间，因为 left right是边界，是有机会被访问到的。访问到可能会
+有数组越界问题。
+
+```
+
+### 动态规划
+[122. 买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)
+
+### 其他
 [169. 多数元素](https://leetcode-cn.com/problems/majority-element/)   摩尔计数法
 
 
 
-### 动态规划
-[122. 买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)  
+
 
 ```
 动态规划,
@@ -100,6 +126,7 @@ s = a + c + xb  无论x是多少, 最终要  a+c+xb = nb。 因此 a+c必定是�
 
 ### 回溯 / 递归
 [22. 括号生成](https://leetcode-cn.com/problems/generate-parentheses/)
+[51. N 皇后](https://leetcode-cn.com/problems/n-queens/)
 
 ### 位运算
 [36. 有效的数独](https://leetcode-cn.com/problems/valid-sudoku/)
@@ -110,6 +137,8 @@ s = a + c + xb  无论x是多少, 最终要  a+c+xb = nb。 因此 a+c必定是�
 
 
  
-3. [51. N 皇后](https://leetcode-cn.com/problems/n-queens/)
+3. 
 
 
+1. 
+2. 
