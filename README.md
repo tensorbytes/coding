@@ -127,18 +127,22 @@ while (left <= right){
 ### 回溯 / 递归
 [22. 括号生成](https://leetcode-cn.com/problems/generate-parentheses/)
 [51. N 皇后](https://leetcode-cn.com/problems/n-queens/)
+[212. 单词搜索 II](https://leetcode-cn.com/problems/word-search-ii/)
+
 
 ### 位运算
 [36. 有效的数独](https://leetcode-cn.com/problems/valid-sudoku/)
+[191. 位1的个数](https://leetcode-cn.com/problems/number-of-1-bits/)
 ```
-用bitmap来存储位置信息结合与或操作来判断数据是否重复出现
+1、用bitmap来存储位置信息结合与或操作来判断数据是否重复出现
+
+2、java的整形是有符号的,符号位0表示正数, 1为负数。
+   对负数进行 >> 1 操作,高位补1.  >>> 1 高位补0.
+
+
 ```
 
 
 
- 
-3. 
 
 
-1. 
-2. 
