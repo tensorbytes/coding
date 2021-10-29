@@ -108,13 +108,6 @@ while (left <= right){
 ### 动态规划
 [122. 买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)
 
-### 其他
-[169. 多数元素](https://leetcode-cn.com/problems/majority-element/)   摩尔计数法
-
-
-
-
-
 ```
 动态规划,
 1、先看题目是不是求最佳\最多\最少.
@@ -122,6 +115,15 @@ while (left <= right){
 3、上来就假设状态 为 int[][] dp = new int[待迭代的数组程度，代表一次选择][选项的个数] 
 4、找出递推公式
 ```
+
+
+### 其他
+[169. 多数元素](https://leetcode-cn.com/problems/majority-element/)   摩尔计数法
+
+
+
+
+
 
 
 ### 回溯 / 递归
