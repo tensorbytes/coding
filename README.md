@@ -115,7 +115,7 @@ while (left <= right){
 3、上来就假设状态 为 int[][] dp = new int[待迭代的数组程度，代表一次选择][选项的个数] 
 4、找出递推公式
 ```
-
+[70. 爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)
 
 ### 其他
 [169. 多数元素](https://leetcode-cn.com/problems/majority-element/)   摩尔计数法
@@ -130,6 +130,7 @@ while (left <= right){
 [22. 括号生成](https://leetcode-cn.com/problems/generate-parentheses/)
 [51. N 皇后](https://leetcode-cn.com/problems/n-queens/)
 [212. 单词搜索 II](https://leetcode-cn.com/problems/word-search-ii/)
+[52. N皇后 II](https://leetcode-cn.com/problems/n-queens-ii/)
 
 
 ### 位运算
@@ -143,8 +144,10 @@ while (left <= right){
 
 
 ```
+[52. N皇后 II](https://leetcode-cn.com/problems/n-queens-ii/)
 
 
 
 
-
+1. [120. 三角形最小路径和](https://leetcode-cn.com/problems/triangle/submissions/)
+2. [645. 错误的集合](https://leetcode-cn.com/problems/climbing-stairs/)
