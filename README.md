@@ -116,11 +116,21 @@ while (left <= right){
 4、找出递推公式
 ```
 [70. 爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)
+[53. 最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)
+[122. 买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)
+[52. N皇后 II](https://leetcode-cn.com/problems/n-queens-ii/)
+[322. 零钱兑换](https://leetcode-cn.com/problems/coin-change/)
+[300. 最长递增子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/)
+```
+很重要的的一个点就是，将最终节点看做是前一个节点的变化而来，例如 前一个节点的值  + 1.
+以零钱兑换这个题目来说，前一个节点 有多个，前一个节点并不是按数组顺序的。
+```
+
 
 ### 其他
 [169. 多数元素](https://leetcode-cn.com/problems/majority-element/)   摩尔计数法
-
-
+[120. 三角形最小路径和](https://leetcode-cn.com/problems/triangle/submissions/)
+[53. 最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)
 
 
 
@@ -136,6 +146,7 @@ while (left <= right){
 ### 位运算
 [36. 有效的数独](https://leetcode-cn.com/problems/valid-sudoku/)
 [191. 位1的个数](https://leetcode-cn.com/problems/number-of-1-bits/)
+[645. 错误的集合](https://leetcode-cn.com/problems/climbing-stairs/)
 ```
 1、用bitmap来存储位置信息结合与或操作来判断数据是否重复出现
 
@@ -144,10 +155,4 @@ while (left <= right){
 
 
 ```
-[52. N皇后 II](https://leetcode-cn.com/problems/n-queens-ii/)
 
-
-
-
-1. [120. 三角形最小路径和](https://leetcode-cn.com/problems/triangle/submissions/)
-2. [645. 错误的集合](https://leetcode-cn.com/problems/climbing-stairs/)
