@@ -76,14 +76,14 @@ s = a + c + xb  无论x是多少, 最终要  a+c+xb = nb。 因此 a+c必定是�
 
 ### 字符串
 
-[3. 无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)
-[1544. 整理字符串](https://leetcode-cn.com/problems/make-the-string-great/)
-[242 有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/)
+[3. 无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)  
+[1544. 整理字符串](https://leetcode-cn.com/problems/make-the-string-great/)  
+[242 有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/)  
 
 
 ### 二分查找
-[50. Pow(x, n)](https://leetcode-cn.com/problems/powx-n/)    二分法
-[69. x 的平方根](https://leetcode-cn.com/problems/sqrtx/)   
+[50. Pow(x, n)](https://leetcode-cn.com/problems/powx-n/)    二分法  
+[69. x 的平方根](https://leetcode-cn.com/problems/sqrtx/)       
 
 ```
 二分查找模板
@@ -106,7 +106,7 @@ while (left <= right){
 ```
 
 ### 动态规划
-[122. 买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)
+[122. 买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)  
 
 ```
 动态规划,
@@ -115,12 +115,12 @@ while (left <= right){
 3、上来就假设状态 为 int[][] dp = new int[待迭代的数组程度，代表一次选择][选项的个数] 
 4、找出递推公式
 ```
-[70. 爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)
-[53. 最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)
-[122. 买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)
-[52. N皇后 II](https://leetcode-cn.com/problems/n-queens-ii/)
-[322. 零钱兑换](https://leetcode-cn.com/problems/coin-change/)
-[300. 最长递增子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/)
+[70. 爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)  
+[53. 最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)  
+[122. 买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)  
+[52. N皇后 II](https://leetcode-cn.com/problems/n-queens-ii/)  
+[322. 零钱兑换](https://leetcode-cn.com/problems/coin-change/)  
+[300. 最长递增子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/)  
 ```
 很重要的的一个点就是，将最终节点看做是前一个节点的变化而来，例如 前一个节点的值  + 1.
 以零钱兑换这个题目来说，前一个节点 有多个，前一个节点并不是按数组顺序的。
@@ -128,25 +128,25 @@ while (left <= right){
 
 
 ### 其他
-[169. 多数元素](https://leetcode-cn.com/problems/majority-element/)   摩尔计数法
-[120. 三角形最小路径和](https://leetcode-cn.com/problems/triangle/submissions/)
-[53. 最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)
+[169. 多数元素](https://leetcode-cn.com/problems/majority-element/)   摩尔计数法  
+[120. 三角形最小路径和](https://leetcode-cn.com/problems/triangle/submissions/)  
+[53. 最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)  
 
 
 
 
 
 ### 回溯 / 递归
-[22. 括号生成](https://leetcode-cn.com/problems/generate-parentheses/)
-[51. N 皇后](https://leetcode-cn.com/problems/n-queens/)
-[212. 单词搜索 II](https://leetcode-cn.com/problems/word-search-ii/)
-[52. N皇后 II](https://leetcode-cn.com/problems/n-queens-ii/)
+[22. 括号生成](https://leetcode-cn.com/problems/generate-parentheses/)  
+[51. N 皇后](https://leetcode-cn.com/problems/n-queens/)  
+[212. 单词搜索 II](https://leetcode-cn.com/problems/word-search-ii/)  
+[52. N皇后 II](https://leetcode-cn.com/problems/n-queens-ii/)  
 
 
 ### 位运算
-[36. 有效的数独](https://leetcode-cn.com/problems/valid-sudoku/)
-[191. 位1的个数](https://leetcode-cn.com/problems/number-of-1-bits/)
-[645. 错误的集合](https://leetcode-cn.com/problems/climbing-stairs/)
+[36. 有效的数独](https://leetcode-cn.com/problems/valid-sudoku/)  
+[191. 位1的个数](https://leetcode-cn.com/problems/number-of-1-bits/)  
+[645. 错误的集合](https://leetcode-cn.com/problems/climbing-stairs/)  
 ```
 1、用bitmap来存储位置信息结合与或操作来判断数据是否重复出现
 
