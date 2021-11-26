@@ -53,8 +53,8 @@ cur = tmp
 这题是困难级别的。所用的知识点就是简单的链表反转.但是对编码的思路是否清晰要求较高。
 第二次做同样废了差不多1个半小时！！！
 ```
-
-
+[21. 合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/submissions/)
+[9. 回文数](https://leetcode-cn.com/problems/palindrome-number/)
 ### 快慢指针
 
 [142. 环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii/) 
@@ -104,6 +104,9 @@ while (left <= right){
 有数组越界问题。
 
 ```
+
+[9. 回文数](https://leetcode-cn.com/problems/palindrome-number/)
+
 
 ### 动态规划
 [122. 买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)  
@@ -155,4 +158,3 @@ while (left <= right){
 
 
 ```
-
