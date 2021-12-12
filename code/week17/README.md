@@ -2,7 +2,7 @@
 
 1. [14. 最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/)
 2. [136. 只出现一次的数字](https://leetcode-cn.com/problems/single-number/)
-3. [160. 相交链表](https://leetcode-cn.com/problems/number-of-islands/submissions/)
+3. [160. 相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)
 4. [35. 搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/)
 
 

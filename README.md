@@ -35,7 +35,8 @@
 
 ### 链表
 
-[206.反转链表](https://leetcode-cn.com/problems/reverse-linked-list/) 
+[206.反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)
+[160. 相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)
 ```
 标准的模板代码,记住一个点就是每次只处理当前节点
 
@@ -84,7 +85,7 @@ s = a + c + xb  无论x是多少, 最终要  a+c+xb = nb。 因此 a+c必定是�
 ### 二分查找
 [50. Pow(x, n)](https://leetcode-cn.com/problems/powx-n/)    二分法  
 [69. x 的平方根](https://leetcode-cn.com/problems/sqrtx/)       
-
+[35. 搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/)
 ```
 二分查找模板
 left , right
