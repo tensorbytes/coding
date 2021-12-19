@@ -74,6 +74,8 @@ s = a + c + xb  无论x是多少, 最终要  a+c+xb = nb。 因此 a+c必定是�
 所以相遇点 就是入口点 a
 
 ```
+[234. 回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/)
+[283. 移动零](https://leetcode-cn.com/problems/move-zeroes/)
 
 ### 字符串
 
@@ -159,3 +161,6 @@ while (left <= right){
 
 
 ```
+1. 
+1. [141. 环形链表](https://leetcode-cn.com/problems/linked-list-cycle/)
+1. 
