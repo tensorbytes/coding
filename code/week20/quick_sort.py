@@ -9,8 +9,8 @@ def _quick_sort_between(a:List[int],low:int,high:int):
     if low < high:
 
         # 随机一个数作为中心点
-        k = random.randint(low, high)
-        a[low], a[k] = a[k], a[low]
+        #k = random.randint(low, high)
+        #a[low], a[k] = a[k], a[low]
 
         m = _partition(a,low,high)
         _quick_sort_between(a, low, m - 1)
@@ -33,7 +33,7 @@ def _partition(a: List[int], low: int, high: int):
 
 
 def test_quick_sort():
-    a1 = [3, 5, 6, 7, 8]
+    a1 = [5,2,4,6,4,3,8]
     quick_sort(a1)
     assert a1 == [3, 5, 6, 7, 8]
     a2 = [2, 2, 2, 2]
@@ -48,7 +48,7 @@ def test_quick_sort():
 
 
 if __name__ == "__main__":
-    a1 = [3, 5, 6, 7, 8]
+    a1 = [5,2,4,6,4,3,8]
     a2 = [2, 2, 2, 2]
     a3 = [4, 3, 2, 1]
     a4 = [5, -1, 9, 3, 7, 8, 3, -2, 9]
